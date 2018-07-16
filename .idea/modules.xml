@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Tabit Exam - Chess.iml" filepath="$PROJECT_DIR$/Tabit Exam - Chess.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Tabit_Exam_-_Chess.iml" filepath="$PROJECT_DIR$/.idea/modules/Tabit_Exam_-_Chess.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Tabit_Exam_-_Chess_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Tabit_Exam_-_Chess_main.iml" group="Tabit_Exam_-_Chess" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Tabit_Exam_-_Chess_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Tabit_Exam_-_Chess_test.iml" group="Tabit_Exam_-_Chess" />
+    </modules>
+  </component>
+</project>
