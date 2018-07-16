@@ -19,7 +19,8 @@ class ParserFileTest {
         testObj.getResult();
     }
 
-    @Test
+   //TODO
+   @Test
     public void testParserRead() {
         ParserFile testObj = new ParserFile();
         try {
@@ -30,6 +31,7 @@ class ParserFileTest {
 
         testObj.getResult();
     }
+    //TODO
     @Test
     public void testParserGenerateResult() {
         ParserFile testObj = new ParserFile();
@@ -41,6 +43,7 @@ class ParserFileTest {
 
         testObj.getResult();
     }
+    //TODO
     @Test
     public void testParser() {
         ParserFile testObj = new ParserFile();
