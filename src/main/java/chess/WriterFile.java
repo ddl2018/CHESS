@@ -9,9 +9,7 @@ public class WriterFile {
 
     public void write(String filePath, String fileName, String[][] board) throws IOException {
         File file = new File("C:/Users/Ashle/Downloads/Tabit Exam - Chess/src/test/resources/results.txt");
-        // File file = new File(FilePath + fileName);
         try {
-            //BufferedWriter writer = new BufferedWriter(new FileWriter(filePath + fileName));
             BufferedWriter writer = new BufferedWriter(new FileWriter(file));
             for (int i = 8; i >= 0; i--) {
                 String line = i + " " + "|";

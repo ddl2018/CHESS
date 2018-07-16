@@ -7,13 +7,13 @@ public class ChessBoard {
     ParserFile reader;
     WriterFile writer;
 
-    public ChessBoard() {
+    public ChessBoard() throws IOException {
         reader = new ParserFile();
         reader.readTxtToArray("C:/Users/Ashle/Downloads/Tabit Exam - Chess/src/test/resources/chess-startup.txt");
         currentBoard = reader.getResult();
     }
 
-    public String[][] readChessBoard(String fileWithPath) {
+    public String[][] readChessBoard(String fileWithPath) throws IOException {
         reader = new ParserFile();
         reader.readTxtToArray(fileWithPath);
         currentBoard = reader.getResult();
@@ -50,16 +50,16 @@ public class ChessBoard {
                     case "ki":
                         numberOfKing++;
                         break;
-                    case "ıʞ":
+                    case "Ä±Êž":
                         numberOfKing++;
                         break;
                     case "ro":
                         numberOfRook++;
                         break;
-                    case "oɹ":
+                    case "oÉ¹":
                         numberOfRook++;
                         break;
-                    case "uʞ":
+                    case "uÊž":
                         numberOfKnight++;
                         break;
                     case "kn":
@@ -68,13 +68,13 @@ public class ChessBoard {
                     case "bi":
                         numberOfBishop++;
                         break;
-                    case "ıq":
+                    case "Ä±q":
                         numberOfBishop++;
                         break;
                     case "pa":
                         numberOfPawn++;
                         break;
-                    case "ɐd":
+                    case "É�d":
                         numberOfPawn++;
                         break;
                 }
